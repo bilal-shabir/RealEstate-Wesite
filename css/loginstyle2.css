@@ -1,0 +1,93 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	padding: 0;
+	font-family: Candara;
+}
+
+.container{
+	display: flex;
+	height: 100vh;
+
+
+}
+.left-section{
+	margin-top: 170px;
+	justify-content: center;
+	padding: 20px 40px;
+	width: 440px;
+
+}
+
+.right-section{
+	flex:1;
+	background-image: url(../loginimage.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.header >h1{
+	margin: 0;
+	color:#f50629;
+
+}
+.header >h4{
+	margin-top: 7px;
+	color: rgba(0,0,0,0.4);
+	font-size: 15px;
+	font-weight: normal;
+
+
+}
+.form{
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.form > p{
+	background-color: #ffa333;
+	max-width: 70px;
+	text-align: right;
+	padding: 7px;
+	border-radius: 3px;
+	border:1px solid #ffa333;
+
+}
+.form > p > a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+
+}
+.form-field{
+	height: 46px;
+	padding: 0px 16px;
+	transition: 0.2s;
+	margin-top: 0px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	
+}
+.a4{
+	margin-top: 15px;
+}
+
+.login{
+	margin-top: 15px;
+	padding: 12px 10px;
+	border:0;
+	background:linear-gradient(to right,#3061ff 0%, #0333d1 100%);
+	border-radius: 3px;
+	color: #fff;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+.form > input:focus{
+	border-color: #3333ff;
+}
+
+
